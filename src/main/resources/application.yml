@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: @env@
+
+spiClass: com.dmall.os.order.spi.OrderSpi
